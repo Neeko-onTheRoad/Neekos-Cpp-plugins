@@ -1,3 +1,5 @@
+#pragma once
+
 void disableConsoleResize();
 void setConsoleSize(int h, int w);
 void setConsoleLocation(int x, int y);
