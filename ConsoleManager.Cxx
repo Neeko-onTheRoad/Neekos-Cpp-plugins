@@ -3,6 +3,8 @@
 #undef _WIN32_WINNT
 #define _WIN32_WINNT 0x0500
 
+using namespace nk;
+
 void ConsoleManager::ResetCursor() {
 	HANDLE hOut;
 	COORD position;
